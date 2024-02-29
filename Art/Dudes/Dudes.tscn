@@ -1,12 +1,20 @@
-[gd_scene load_steps=2 format=3 uid="uid://cuieflq613nph"]
+[gd_scene load_steps=3 format=3 uid="uid://cuieflq613nph"]
 
 [ext_resource type="Texture2D" uid="uid://ct52gem3suehy" path="res://Art/Dudes/Gimpy.png" id="1_ef673"]
+[ext_resource type="Texture2D" uid="uid://bpa4p7dfoikmr" path="res://Art/Dudes/Copper.png" id="2_08rv5"]
 
 [node name="Gimpy" type="Node2D"]
 
 [node name="Gimpy" type="Sprite2D" parent="."]
 texture_filter = 1
 texture_repeat = 1
-position = Vector2(150, 43.5)
-scale = Vector2(4.125, 3.3125)
+position = Vector2(285, 366)
+scale = Vector2(35.3125, 33.7969)
 texture = ExtResource("1_ef673")
+
+[node name="Copper" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(869.5, 363)
+rotation = 6.28319
+scale = Vector2(27.95, 28.1)
+texture = ExtResource("2_08rv5")
