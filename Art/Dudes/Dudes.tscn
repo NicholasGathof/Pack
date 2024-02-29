@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuieflq613nph"]
+
+[ext_resource type="Texture2D" uid="uid://ct52gem3suehy" path="res://Art/Dudes/Gimpy.png" id="1_ef673"]
+
+[node name="Gimpy" type="Node2D"]
+
+[node name="Gimpy" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 1
+position = Vector2(150, 43.5)
+scale = Vector2(4.125, 3.3125)
+texture = ExtResource("1_ef673")
